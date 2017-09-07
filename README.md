@@ -10,7 +10,7 @@
 ## 设备
 - 智能小车
 - 树莓派3b
-- Arduino UNO
+- Arduino UNO开发板
 - L298N 电机驱动
 - 激光雷达
 - 摄像头
