@@ -6,6 +6,10 @@
 
 """
 scan_write_csv.py:把点云写入csv，然后在Sweep Visualizer观看
+
+AZIMUTH方位角，偏振角：
+libsweep及其绑定（sweeppy）将方位报告为毫秒的整数，以避免浮点表示而不失去精度。
+要将millidegree转换为一个程度，只需将值除以1000。
 """
 
 from sweeppy import Sweep, Sample
