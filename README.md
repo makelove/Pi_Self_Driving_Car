@@ -12,7 +12,7 @@
 - 树莓派3b
 - Arduino UNO开发板
 - L298N 电机驱动
-- 激光雷达
+- 激光雷达Scanse Sweep
 - 摄像头
 - GPS模块
 - 超声波传感器 4
