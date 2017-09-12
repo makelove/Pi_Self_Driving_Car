@@ -1,6 +1,6 @@
 https://github.com/scanse/sweep-ros
 
-#步骤
+# 步骤
 - 要先安装sweep-sdk 
 - mkdir github
 - cd github/
