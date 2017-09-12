@@ -14,3 +14,10 @@ https://github.com/scanse/sweep-ros
 - sudo ldconfig
 - cd ..
 - git clone https://github.com/scanse/sweep-ros.git
+
+
+
+
+
+# 参考
+- https://github.com/jetsonhacks/installSweep
