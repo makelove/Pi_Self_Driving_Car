@@ -2,7 +2,7 @@ https://github.com/scanse/sweep-ros
 
 # 步骤
 - 要先安装sweep-sdk 
-- mkdir github
+- mkdir ~/github
 - cd github/
 - git clone https://github.com/scanse/sweep-sdk
 - cd sweep-sdk/libsweep/
