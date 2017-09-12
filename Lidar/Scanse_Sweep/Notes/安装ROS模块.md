@@ -45,7 +45,8 @@ https://github.com/scanse/sweep-ros
 - roslaunch sweep_ros view_sweep_laser_scan.launch #打开rviz
 
 
-
+## result 截图screenshot
+![laser](screenshot-laser.png "laser")
 
 # 参考
 - https://github.com/jetsonhacks/installSweep
