@@ -6,7 +6,7 @@ http://wiki.ros.org/kinetic/Installation/Ubuntu
 - sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
 - sudo apt-get update
 - sudo apt-get install ros-kinetic-desktop-full
-- 不行，不支持Debian
+- 不行，不支持Debian.支持Ubuntu Mate arm版
 
 #### 官方文档
 http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Kinetic%20on%20the%20Raspberry%20Pi
