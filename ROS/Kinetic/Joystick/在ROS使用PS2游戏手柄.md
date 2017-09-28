@@ -1,4 +1,4 @@
-# PS2震动usb2.4g无线游戏手柄
+# PS2震动usb2.4g无线游戏手柄,博天源skyuan游戏手柄
 - 购买链接：https://item.taobao.com/item.htm?id=35391805818
 - 支持Ubuntu，免驱动
 - 使用：
