@@ -13,7 +13,7 @@
         <param name="deadzone"  value="0.12"/>
     </node>
 </launch>
-  ```
+```
 
 ## 参考链接
 - http://wiki.ros.org/mallasrikanth/joystick%20control
