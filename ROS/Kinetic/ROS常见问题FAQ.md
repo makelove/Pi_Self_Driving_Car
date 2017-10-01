@@ -4,3 +4,11 @@
 	- source /opt/ros/indigo/setup.bash
 	- source /opt/ros/jade/setup.bash
 	- source /opt/ros/kinetic/setup.bash
+- 多台ROS 怎样通信？
+	- 修改.bashrc文件
+	- Master ：
+		- export ROS_HOSTNAME=192.168.1.102
+		- export ROS_MASTER_URI=http://192.168.1.103:11311
+	- SlaveA
+		- export ROS_HOSTNAME=192.168.1.103
+		- export ROS_MASTER_URI=http://192.168.1.103:11311
