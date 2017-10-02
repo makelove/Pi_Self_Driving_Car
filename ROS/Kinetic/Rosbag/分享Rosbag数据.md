@@ -2,6 +2,7 @@
 - GPS
 - 激光雷达
 - IMU
+- SLAM
 
 ## 怎样播放
 - 查看帮助文档 rosbag play -h
