@@ -8,20 +8,30 @@
 te1.py:
 """
 
-from sweeppy import Sweep
+from sweeppy import Sweep,Scan,Sample
 
-with Sweep('/dev/ttyUSB0') as sweep:
-    # with Sweep('/dev/tty.usbserial-DM00KZW7') as sweep:
+# with Sweep('/dev/ttyUSB0') as sweep:
+with Sweep('/dev/tty.usbserial-DM00KZW7') as sweep:
     print('start_scanning')
     sweep.start_scanning()
     try:
         for scan in sweep.get_scans():
             print('{}\n'.format(scan))
+            #
+            # scan = Scan()
+            # scan.samples
+            sam = Sample()
+            # sam.angle
+            # sam.distance
+            # sam.signal_strength
+            sam.
+            print('len(scan.samples):',len(scan.samples))
     except KeyboardInterrupt as e:
         print(e, 'Stop scanning')
         sweep.stop_scanning()
     finally:
         sweep.set_motor_speed(0)
+
 # 正常工作！
 
 '''
