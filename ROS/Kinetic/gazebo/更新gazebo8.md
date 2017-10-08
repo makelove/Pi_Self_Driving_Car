@@ -7,4 +7,6 @@
 - wget http://packages.osrfoundation.org/gazebo.key -O - | sudo apt-key add -
 - sudo apt-get update
 - apt-cache search Kinetic-gazebo8
-- install
+- sudo apt install ros-kinetic-gazebo8-ros*
+- 注意：有些软件包依赖gazebo7，不能安装
+
