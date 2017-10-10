@@ -18,3 +18,12 @@
 ## 参考链接
 - http://wiki.ros.org/mallasrikanth/joystick%20control
 - GitHub https://github.com/srikanthmalla/joystick_control
+
+
+## 步骤，手动执行
+- 插入游戏手柄
+- ls /dev/input/js0 
+- rosrun joy joy_node 
+- rosrun turtlesim turtlesim_node 
+- rosrun beginner_tutorials joystick_control_turtle1.py
+- 便可以用左边方向键控制 turtlesim 了。
