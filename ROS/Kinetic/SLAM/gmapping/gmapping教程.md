@@ -7,11 +7,11 @@
 - gmapping 需要两个输入，一个为激光雷达数据，另外一个是全局 tf转换关系，这个 tf 中需要一个里程计数据以构建坐标系。
 	- rosrun gmapping slam_gmapping scan:=scan
 - 重放激光扫描的数据记录
-	- rosbag play -l --clock Lecture3SLAM_Tutorial.bag 
+	- rosbag play -l --clock Team_Hector_MappingBox_RoboCup_2011_Rescue_Arena.bag
 - 启动 Rviz
 	- rosrun rviz rviz
-		- 设置FIxed Frame：laser #使用 rostopic echo /scan 找到frame_id
-		- LaserScan：Topic ：scan  #rosbag 播放 激光bag文件时所用的topic
+		- 设置FIxed Frame：map 
+		- 添加 Map 组件，topic为/map
 
 ## Node graph
 ![gmapping-rosgraph](gmapping-rosgraph.png)
