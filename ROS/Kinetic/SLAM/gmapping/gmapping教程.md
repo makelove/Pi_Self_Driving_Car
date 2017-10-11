@@ -13,5 +13,5 @@
 		- 设置FIxed Frame：laser #使用 rostopic echo /scan 找到frame_id
 		- LaserScan：Topic ：scan  #rosbag 播放 激光bag文件时所用的topic
 
-## topic graph
-![]()
+## Node graph
+![gmapping-rosgraph](gmapping-rosgraph.png)
