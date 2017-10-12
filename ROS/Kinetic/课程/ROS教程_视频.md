@@ -8,4 +8,4 @@
 
 
 # 视频教程
-- [ROS小课堂](http://i.youku.com/i/UMTUzNzkwNTA1Ng==/playlists)
+- [ROS小课堂](http://i.youku.com/i/UMTUzNzkwNTA1Ng==/playlists) ROS各项功能都介绍得很详细！
