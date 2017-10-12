@@ -5,3 +5,7 @@
 - [创客智造](http://www.ncnynl.com/)
 - [创客智造 ROS与Python入门教程 ](http://www.ncnynl.com/category/ros-python/)
 - [ROSclub](http://www.rosclub.cn/cate-1.html)
+
+
+# 视频教程
+- [ROS小课堂](http://i.youku.com/i/UMTUzNzkwNTA1Ng==/playlists)
