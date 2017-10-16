@@ -41,6 +41,9 @@ https://github.com/scanse/sweep-ros
 - rosdep install -a -y -r
 - cd ~/catkin_ws/
 - catkin_make
+- sudo -s 
+- catkin_make install  -DCMAKE_INSTALL_PREFIX=/opt/ros/kinetic
+- rosstack profile & rospack profile
 - source devel/setup.bash
 - roslaunch sweep_ros view_sweep_laser_scan.launch #打开rviz
 
