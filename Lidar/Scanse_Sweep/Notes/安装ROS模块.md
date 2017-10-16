@@ -51,5 +51,14 @@ https://github.com/scanse/sweep-ros
 ## result 截图screenshot
 ![laser](screenshot-laser.png "laser")
 
+
+## 手动启动sweep ros
+- rosrun sweep_ros sweep_node
+- 启动rviz
+- 添加PointCloud2
+- 把size(m)设为0.1
+- 把Fixed Frame 改为 laser_frame
+- OK
+
 # 参考
 - https://github.com/jetsonhacks/installSweep
