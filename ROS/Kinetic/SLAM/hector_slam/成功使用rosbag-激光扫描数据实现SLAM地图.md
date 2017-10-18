@@ -15,3 +15,13 @@
 	
 ## 截图
 ![hector_slam_map_success](hector_slam_map_success.png)
+
+
+
+
+## bag file 列表
+- Lecture3SLAM_Tutorial.bag             
+- Team_Hector_MappingBox_RoboCup_2011_Rescue_Arena.bag
+- Team_Hector_MappingBox_RoboCupGermanOpen2011_Arena.bag
+- Team_Hector_MappingBox_Dagstuhl_Neubau.bag
+- Team_Hector_MappingBox_L101_Building.bag
