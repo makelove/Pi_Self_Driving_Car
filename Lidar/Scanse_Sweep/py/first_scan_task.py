@@ -16,16 +16,24 @@ with Sweep('/dev/tty.usbserial-DM00KZW7') as sweep:
     sweep.start_scanning()
     try:
         for scan in sweep.get_scans():
-            print('{}\n'.format(scan))
+            #print('{}\n'.format(scan))
             #
             # scan = Scan()
             # scan.samples
-            sam = Sample()
+            #sam = Sample()
             # sam.angle
             # sam.distance
             # sam.signal_strength
-            sam.
+            #sam.
             print('len(scan.samples):',len(scan.samples))
+            '''
+            len(scan.samples): 132
+len(scan.samples): 133
+len(scan.samples): 129
+len(scan.samples): 131
+len(scan.samples): 128
+len(scan.samples): 130
+            '''
     except KeyboardInterrupt as e:
         print(e, 'Stop scanning')
         sweep.stop_scanning()
