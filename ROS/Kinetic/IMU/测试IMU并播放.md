@@ -1,11 +1,11 @@
 # 测试IMU并播放
 
-## 购买IMU
+## 购买IMU ,淘宝都有销售
 - [SparkFun 9DoF Razor IMU (SEN-10736)](https://www.sparkfun.com/products/retired/10736)
 	- 很多教程都用这款，但这款退役了。而且需要自己焊接，并购买[SparkFun FTDI Basic Breakout - 3.3V](https://www.sparkfun.com/products/9873) USB接口才能使用，麻烦。
-- [SparkFun 9DoF Razor IMU M0 (SEN-14001)](https://www.sparkfun.com/products/14001) 这个是最新款，但是[ROS官方教程](https://github.com/KristofRobot/razor_imu_9dof)不支持这款IMU，芯片都不一样，没人支持后续开发。
+- [SparkFun 9DoF Razor IMU M0 (SEN-14001)](https://www.sparkfun.com/products/14001) 这个是最新款，但是[ROS官方教程razor_imu_9dof](https://github.com/KristofRobot/razor_imu_9dof)不支持这款IMU，芯片都不一样，没人支持后续开发。
 	- [SparkFun 9DoF Razor IMU M0上手指南](https://learn.sparkfun.com/tutorials/9dof-razor-imu-m0-hookup-guide)
-- [mpu6050 模块](https://s.taobao.com/search?spm=a230r.1.0.0.4e2014bbTmXAao&q=mpu6050+模块&rs=up&rsclick=2&preq=mpu6050&sort=sale-desc)最便宜！！
+- mpu6050 模块 最便宜！！ [淘宝](https://s.taobao.com/search?spm=a230r.1.0.0.4e2014bbTmXAao&q=mpu6050+模块&rs=up&rsclick=2&preq=mpu6050&sort=sale-desc)
 	- 参考：[加速度计和陀螺仪融合得到精确角度](http://www.arduino.cn/thread-18392-1-1.html)
 
 
