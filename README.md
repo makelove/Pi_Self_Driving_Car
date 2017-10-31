@@ -21,6 +21,6 @@
 - 电池12V + 充电宝
 - 杜邦线
 - IMU
-    - mpu6050
+    - GY-521 MPU-6050模块 三轴加速度 陀螺仪6DOF模块 https://item.taobao.com/item.htm?spm=a1z1r.7974869.0.0.4f1d809do5FR1k&id=537182932458
     - m0
 - RGB 全彩LED   
