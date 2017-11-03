@@ -3,6 +3,7 @@
 ### 问题
 - imu数据输出一段时间内，会停止输出！
 - Arduino 自动重启？？
+- 把MPU6050用铜柱固定在Arduino上，就不会了，解决问题。
 
 ## 安装mpu6050 库
 - 下载 http://diyhacking.com/projects/MPU6050.zip 和 http://diyhacking.com/projects/I2Cdev.zip，解压后放到Arduino的libraries目录下，重启Arduino.
