@@ -25,3 +25,9 @@ source  devel/setup.bash
 - roslaunch mpu6050_serial_to_imu demo.launch
 
 ![mpu6050_rviz.png](mpu6050_rviz.png)
+
+
+## 使用图书《[ROS机器人高效编程](https://item.jd.com/12169587.html)》的代码来显示
+- rosrun mpu6050_serial_to_imu mpu6050_serial_to_imu_node 
+- roslaunch razor_imu_9dof razor-display.launch
+	![imu-visual](../../imu-visual.png)
