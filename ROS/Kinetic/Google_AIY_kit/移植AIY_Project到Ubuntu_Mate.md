@@ -50,4 +50,9 @@ https://www.raspberrypi.org/forums/viewtopic.php?f=29&t=167934
 
 - 安装 AIY
     - https://github.com/google/aiyprojects-raspbian/blob/voicekit/HACKING.md
-    -
+    - 我在配置AIY hat 碰到问题，到GitHub论坛上提问
+        - https://github.com/google/aiyprojects-raspbian/issues/168
+    - 他提示我要 changing default to plug:micboost in  [_recorder.py](https://github.com/google/aiyprojects-raspbian/blob/3332a45591e64095c7a6d2d349cd13114d8962ef/src/aiy/_drivers/_recorder.py#L42)
+    - 能正常使用AIY hat
+    - 但Network proxy还没有解决。
+        - https://github.com/google/aiyprojects-raspbian/issues/169
