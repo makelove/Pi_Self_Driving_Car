@@ -1,8 +1,9 @@
-##  移植AIY_Project到Ubuntu_Mate
+##  移植Google AIY_Project到Ubuntu_Mate
 - 安装Ubuntu Mate
     - 下载树莓派镜像 https://ubuntu-mate.org/raspberry-pi/
-    - sudo dd bs=16m if=~/ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img of=/dev/disk3
+    - 刻录 sudo dd bs=16m if=~/ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img of=/dev/disk3
     - 升级内核到4.9  sudo rpi-update
+        - 由于网络问题，耗时很长。第二天早上却顺利安装了。
 ```bash
     pi@pi-desktop:~$ sudo rpi-update
 [sudo] password for pi:
@@ -56,3 +57,30 @@ https://www.raspberrypi.org/forums/viewtopic.php?f=29&t=167934
     - 能正常使用AIY hat
     - 但Network proxy还没有解决。
         - https://github.com/google/aiyprojects-raspbian/issues/169
+        
+- 测试结果
+```bash
+Press the button and speak
+Listening...
+[2017-11-10 11:05:32,138] INFO:speech:event_type: 1
+[2017-11-10 11:05:32,158] INFO:speech:transcript: how much is $1 in Chinese yen
+You said " how much is $1 in Chinese yen "
+Press the button and speak
+Listening...
+[2017-11-10 11:05:55,593] INFO:speech:event_type: 1
+Press the button and speak
+Listening...
+[2017-11-10 11:06:10,567] INFO:speech:event_type: 1
+[2017-11-10 11:06:11,729] INFO:speech:transcript: what is the capital of South Africa
+You said " what is the capital of South Africa "
+Press the button and speak
+Listening...
+[2017-11-10 11:06:38,547] INFO:speech:event_type: 1
+[2017-11-10 11:06:38,566] INFO:speech:transcript: what is the speed of lightning
+You said " what is the speed of lightning "
+Press the button and speak
+Listening...
+[2017-11-10 11:07:08,896] INFO:speech:event_type: 1
+[2017-11-10 11:07:10,227] INFO:speech:transcript: what is the famous equation of Einstein
+You said " what is the famous equation of Einstein "
+```        
