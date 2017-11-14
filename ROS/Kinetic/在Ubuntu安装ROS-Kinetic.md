@@ -28,6 +28,7 @@ http://wiki.ros.org/kinetic/Installation/Ubuntu
 - sudo rosdep init
 - ping raw.githubusercontent.com
 - rosdep update #这里要从GitHub下载配置文件，网络差
+    - 早上的网络好，干扰少
 - echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
 - sudo apt-get install python-rosinstall
 - sudo reboot 
