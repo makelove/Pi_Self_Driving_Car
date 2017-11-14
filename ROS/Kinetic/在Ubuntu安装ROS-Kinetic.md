@@ -5,7 +5,7 @@ http://wiki.ros.org/kinetic/Installation/Ubuntu
 - 安装VMware Fusion 最新版(my is 专业版 8.5.7 (5528452))
 - 在VMware虚拟机里安装Ubuntu 16.04
 - sudo apt-get update
-- sudo apt-get upgrade
+- 必须！ sudo apt-get upgrade
 - sudo apt-get install vim
 - sudo apt-get install openssh-server
 - sudo reboot 
