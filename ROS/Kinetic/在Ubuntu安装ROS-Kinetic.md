@@ -36,6 +36,11 @@ http://wiki.ros.org/kinetic/Installation/Ubuntu
 - sudo reboot 
 - 完成安装。
 
+# 安装open-vm-tools
+- sudo apt install open-vm-tools open-vm-tools-desktop open-vm-tools-dkms
+- 共享目录
+    - sudo mount -t fuse.vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other
+    - ln -s /mnt/hgfs/ROS ~/ROS
 
 ## 常用包
 ```bash
