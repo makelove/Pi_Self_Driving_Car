@@ -12,6 +12,8 @@ http://wiki.ros.org/kinetic/Installation/Ubuntu
 
 - ls /etc/apt/sources.list.d/
 - sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -cs) main" > /etc/apt/sources.list.d/ros-latest.list'
+- 国内源，[易科机器人实验室（ExBot Robotics Lab）](http://blog.exbot.net/)
+    - sudo sh -c 'echo "deb http://ros.exbot.net/rospackage/ros/ubuntu $(lsb_release -cs) main" > /etc/apt/sources.list.d/ros-latest.list'
 - sudo vi /etc/apt/sources.list.d/ros-latest.list
 - wget http://packages.ros.org/ros.key -O - | sudo apt-key add -
 - 在安装之前要清理一下，不然安装不能通过
