@@ -43,6 +43,3 @@
 - 测速电机
     - JGA25直流减速电机 带编码器 霍尔测速磁环 大扭力直流马达 [淘宝](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.7f280f31zxT40g&id=45781421725&_u=venvdkb07c7)
 - RGB 全彩LED   [淘宝](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.7f280f31zxT40g&id=537143825494&_u=venvdkb95ff)
-- Google AIY Voice Kit语音助手 [淘宝](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.5ff3f977LungAA&id=560254057675&_u=8envdkb13fe) 
-    - 英国 https://thepihut.com/products/google-aiy-voice-kit
-    - 比较折腾，不是很推荐购买
