@@ -1,6 +1,10 @@
 # Pi_Self_Driving_Car
 使用树莓派3b来实现无人驾驶汽车
 
+- 参考图书
+    - [ROS机器人高效编程（原书第3版）](https://item.jd.com/12169587.html)
+        - 非常好的一本书！
+
 
 ## 开发环境
 * macOS Sierra 10.12.5 
